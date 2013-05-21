@@ -46,53 +46,53 @@ MessageInspector
 ==================
 The message inspector provides a number of static helper functions that allow you to better extract data from incomming messages. The list of messageInspector functions are:
 
-hasProspect
-isAnonymousVisitor
-hasVisitor
-isPageView
-isEmail
-isEmailOpenActivity
-isEmailClickActivity
-isLandingPageActivity
-isFileActivity
-isFormActivity
-isFormViewActivity
-isFormSuccessfulSubmitActivity
-isFormFailedSubmitActivity
-isCampaignOfName
-getCampaignName
-isOpportunityActivity
-isActivityOfState
-getActivityState
-getActivityNameAndDetails
-isActivityOfName
-isVisitorActivity
-hasHydratedProperty
-decorateNameAndCompanyFromProspect
-decorateNameAndCompanyFromVisitor
-getActivityType
-isProspectWithCrmUrl
-isEmailSentActivity
-isEmailTrackerActivity
-isEmailUnsubscribeActivity
-isWebinarActivity
-isPaidSearchClickActivity
-isVisitorActivityWithIdentifiedCompany
-isIdentifiedCompanyWithoutProspectActivity
-isSiteSearchActivity
-isCountryMatch
-isCountryGroupMatch
-isStateMatch
-isWhoisCountryMatch
-isWhoisCountryGroupMatch
-isWhoisStateMatch
-isVisitorActivityWithWhoisCountry
-isVisitorActivityWithWhoisState
-getPreviousActivities
-isStarred
-isFilteredActivity
-isActivityOfProspectAssignedToUser
-isActivityOfProspectAssignedToCurrentUser
+- hasProspect
+- isAnonymousVisitor
+- hasVisitor
+- isPageView
+- isEmail
+- isEmailOpenActivity
+- isEmailClickActivity
+- isLandingPageActivity
+- isFileActivity
+- isFormActivity
+- isFormViewActivity
+- isFormSuccessfulSubmitActivity
+- isFormFailedSubmitActivity
+- isCampaignOfName
+- getCampaignName
+- isOpportunityActivity
+- isActivityOfState
+- getActivityState
+- getActivityNameAndDetails
+- isActivityOfName
+- isVisitorActivity
+- hasHydratedProperty
+- decorateNameAndCompanyFromProspect
+- decorateNameAndCompanyFromVisitor
+- getActivityType
+- isProspectWithCrmUrl
+- isEmailSentActivity
+- isEmailTrackerActivity
+- isEmailUnsubscribeActivity
+- isWebinarActivity
+- isPaidSearchClickActivity
+- isVisitorActivityWithIdentifiedCompany
+- isIdentifiedCompanyWithoutProspectActivity
+- isSiteSearchActivity
+- isCountryMatch
+- isCountryGroupMatch
+- isStateMatch
+- isWhoisCountryMatch
+- isWhoisCountryGroupMatch
+- isWhoisStateMatch
+- isVisitorActivityWithWhoisCountry
+- isVisitorActivityWithWhoisState
+- getPreviousActivities
+- isStarred
+- isFilteredActivity
+- isActivityOfProspectAssignedToUser
+- isActivityOfProspectAssignedToCurrentUser
 
 Example Usage in your processPushNotification callback:
 
