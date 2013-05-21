@@ -1,4 +1,4 @@
-Pardot Push Client
+Pardot Streaming Client
 ===================
 This project provides a node.js client and helper functions for using Pardot's streaming api.
 
@@ -7,7 +7,7 @@ Install
 
 To install the client, use npm:
 
-	npm install pardot-push-client
+	npm install pardot-streaming-client
 
 
 
@@ -18,7 +18,7 @@ The PushApi is the main client class that is used to subscibe to pardot data str
 
 Simple Example Application:
 
-	var PardotClient = require('pardot-push-client');
+	var PardotClient = require('pardot-streaming-client');
 	var psh = new PardotClient.PushApi({
 			delayBeforeReconnect: 10,
 			processPushNotification: function(message){
@@ -110,7 +110,7 @@ The filtered notifier object is a helper object that allows you to split a singl
 
 Example usage in conjunction with the MessageInspector:
 
-		var PardotClient = require('./pardot-push-client');
+		var PardotClient = require('pardot-streaming-client');
 		var notifier = new PardotClient.FilteredNotifier();
 
 		//Setup 2 Streams of notification, 1 for Landing pages, 1 for forms
