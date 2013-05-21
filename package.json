@@ -3,7 +3,6 @@
 	"description": "Streaming api for processing realtime Pardot analytics data.",
 	"author": "Rob Righter <rob.righter@pardot.com>",
 	"version": "0.0.1",
-	"private": true,
 	"dependencies": {
 		"websocket": "1.0.8"
 		
