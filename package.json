@@ -1,8 +1,8 @@
 {
 	"name": "pardot-streaming-client",
 	"description": "Streaming api for processing realtime Pardot analytics data.",
-	"author": "Rob Righter <rob.righter@pardot.com>",
-	"version": "0.0.1",
+	"author": "Rob Righter <rrighter@salesforce.com>",
+	"version": "0.0.2",
 	"dependencies": {
 		"websocket": "1.0.8"
 		

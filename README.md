@@ -122,5 +122,12 @@ Example usage in conjunction with the MessageInspector:
 			//This function is called every time an event happens with a form
 		});
 
+		var psh = new PardotClient.PushApi({
+			delayBeforeReconnect: 10,
+			processPushNotification: notifier.processMessage
+		}, function(){
+			psh.login("username","password");
+		});
+
 
 
